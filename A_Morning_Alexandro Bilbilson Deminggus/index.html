@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/png-transparent-computer-icons-anime-manga-anime-white-face-text.png">
+    <link rel="stylesheet" href="styles.css">
+    <!--<title>  Responsive Website </title>-->
+	<script language='JavaScript'>
+        var txt=" Website Profile |";
+        var speed= 250;
+        var refresh=null;
+        function action() { document.title=txt;
+        txt=txt.substring(1,txt.length)+txt.charAt(0);
+        refresh=setTimeout("action()",speed);}action();
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="img"></div>
+        <h1>Alexandro Bilbilson Deminggus</h1>
+        <div class="text">
+            Mahasiswa - <strong>Web Development A</strong>
+        </div>
+        <p>Saya adalah Mahasiswa Program Studi Teknologi Informasi - Semester 5 dari Universitas Bina Sarana Informatika. <br>
+            Saya sedang mengasah kemampuan dalam bidang Web Development agar menjadi seorang Web Developer yang handal dan hebat.
+        </p>
+        <ul>
+            <li><a href="https://www.instagram.com/billydeminggus/"><img class="logo" src="assets/fb.png"></a></a></li>
+            <li><a href="https://web.facebook.com/profile.php?id=100009232084439"><img class="logo" src="assets/ig.png"></a></a></li>
+            <li><a href="https://www.linkedin.com/in/alexandro-bilbilson-ba5126278/"><img class="logo" src="assets/link.png"></a></a></li>
+        </ul>
+    </div>
+</body>
+</html>
